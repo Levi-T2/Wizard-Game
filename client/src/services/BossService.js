@@ -12,6 +12,7 @@ class BossService {
         AppState.newBosses = newBosses
         logger.log('Bosses In Appstate:', AppState.newBosses)
     }
+    
 
 }
 

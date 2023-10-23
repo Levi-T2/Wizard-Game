@@ -4,19 +4,27 @@
       <img src="https://bcw.blob.core.windows.net/public/img/8600856373152463" alt="CodeWorks Logo"
         class="rounded-circle">
       <button @click="getBossTest()" class="btn btn-success">get bosses</button>
+      <div>
+        {{ bosses }}
+      </div>
     </div>
   </div>
 </template>
 
 <script>
 import { bossService } from '../services/BossService';
+import { AppState } from "../AppState";
+import { computed } from 'vue';
+
 
 export default {
   setup() {
+
     return {
       getBossTest() {
         bossService.getBosses()
-      }
+      },
+      bosses: computed(() => AppState.newBosses)
     }
   }
 }
