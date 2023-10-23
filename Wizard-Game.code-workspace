@@ -1,4 +1,3 @@
-
 {
   "folders": [
     {
@@ -34,6 +33,26 @@
     "eslint.codeActionsOnSave.mode": "all",
     "editor.codeActionsOnSave": {
       "source.fixAll": true
-    }
+    },
+    "workbench.colorCustomizations": {
+      "activityBar.activeBackground": "#f0a696",
+      "activityBar.background": "#f0a696",
+      "activityBar.foreground": "#15202b",
+      "activityBar.inactiveForeground": "#15202b99",
+      "activityBarBadge.background": "#148b29",
+      "activityBarBadge.foreground": "#e7e7e7",
+      "commandCenter.border": "#15202b99",
+      "sash.hoverBorder": "#f0a696",
+      "statusBar.background": "#ea8069",
+      "statusBar.foreground": "#15202b",
+      "statusBarItem.hoverBackground": "#e45a3c",
+      "statusBarItem.remoteBackground": "#ea8069",
+      "statusBarItem.remoteForeground": "#15202b",
+      "titleBar.activeBackground": "#ea8069",
+      "titleBar.activeForeground": "#15202b",
+      "titleBar.inactiveBackground": "#ea806999",
+      "titleBar.inactiveForeground": "#15202b99"
+    },
+    "peacock.color": "#ea8069"
   }
 }
